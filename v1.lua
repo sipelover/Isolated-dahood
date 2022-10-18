@@ -1,4 +1,3 @@
-
 local lc = game:GetService("Players").LocalPlayer -- Use GetService it is important because some games change Players so use that instead of game.Players!
 local group = 16143567 -- Roblox Fan Group but put your group ID HERE
 local grouplink = "discord.gg/"
@@ -12,8 +11,6 @@ else
 end
 
 print(creds)
-
--- Feel Free To Copy And Paste all this in your executor and execute to test it out
 repeat wait() until game:IsLoaded()
 local IsolatedLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/sipelover/Isolated-dahood/main/libary.lua", true))()
 local Optimized = true
