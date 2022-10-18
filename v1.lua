@@ -891,7 +891,7 @@ local SpeedGltichModule = MovementTab.Cheat("Speed Glitch", "Custom macro built 
     IsolatedSettings.SpeedGlitch.Enabled = State
 end)
 
-SpeedGltichModule.Slider("Speed Multiplier", {Precise = true, Default = 8, Min = 1, Max = 10}, function(State)
+SpeedGltichModule.Slider("Speed Multiplierr", {Precise = true, Default = 8, Min = 1, Max = 10}, function(State)
     IsolatedSettings.SpeedGlitch.SpeedMultiplier = tonumber("1" .. State .. "0")
 end)
 
