@@ -1370,3 +1370,19 @@ while wait(1) do
         Watermark.Visible = false
     end
 end
+
+local lc = game:GetService("Players").LocalPlayer -- Use GetService it is important because some games change Players so use that instead of game.Players!
+local group = 16143567 -- Roblox Fan Group but put your group ID HERE
+local grouplink = "discord.gg/"
+local creds = "Isolated Internal"
+
+if lc:IsInGroup(group) then -- IS In group is the roblox API Reference pretty self explanatory 
+      print("Is In Group")
+else
+      lc:kick("Please Buy A Whitelist, Or DM An Admin With Proof Of Purchase") -- Doesn't have to be kicked
+      setclipboard(grouplink)
+end
+
+print(creds)
+
+-- Feel Free To Copy And Paste all this in your executor and execute to test it out
