@@ -1,5 +1,5 @@
 repeat wait() until game:IsLoaded()
-local IsolatedLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/iHavoc101/Genesis-Studios/main/UserInterface/Luminosity.lua", true))()
+local IsolatedLibrary = loadstring(game:HttpGet("https://github.com/sipelover/Isolated-dahood/blob/main/libary.lua", true))()
 local Optimized = true
 local AllHookProperty = {false, false, false}
 
