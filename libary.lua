@@ -6,19 +6,14 @@
                                         |__/
 	Source:
         https://raw.githubusercontent.com/icuck/GenesisStudioLibraries/main/Elerium%20Interface%20Library.lua
-
 	Version:
         0.0.1
-
 	Date:
         October 19th, 2020
-
 	Author:
         OminousVibes @ v3rmillion.net / OminousVibes#1234 @ discord.gg
-
     Credits:
         (None Yet)
-
 ]]
 
 -- [ Initialize ] --
